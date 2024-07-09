@@ -9,8 +9,7 @@
     <h1>This Is The Header!</h1>
     <div id="todos"></div>
 
-    <h2>Everything below this line comes from the API Container</h2>
-    <h3></h3>
+    <h2>All of these Todos are Populated by the API Server</h2>
     <script>
       fetch("http://appexample:5000/")
         .then((response) => response.json())
@@ -27,5 +26,7 @@
           console.log("Error: ", error);
         });
     </script>
+    <h2>Obligatory AI Inclusion</h2>
+    <img src="/images/guard.png" alt="Guard Dog">
   </body>
 </html>
